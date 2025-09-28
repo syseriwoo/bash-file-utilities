@@ -12,16 +12,16 @@ Place the desired `.sh` file in the same folder as the files you wish to change,
 
 ## RenameFileNameByCreatedDate.sh
 * Rename a file to its `CreatedDate`.
-* Ex: iOS `IMG_0000` filename pattern for photos becomes `yyyyMMdd_0000`.
+* Ex: iOS `IMG_0000` filename pattern for photos becomes `yyyyMMdd_NNNN`.
 * The *extension* of the original file is preserved.
 
 ## SetCreateDateAndModifiedDateByFileName.sh
 * The reverse of the `RenameFileNameByCreatedDate.sh` script above.
-* If a file is *already named* according to a `yyyyMMdd*` date pattern, this script will set a file's `CreateDate` and `ModifiedDate` to reflect the filename. Includes hours-minutes.
+* If a file is *already named* according to a `yyyyMMdd` date pattern, this script will set a file's `CreateDate` and `ModifiedDate` to reflect the filename. Includes hours-minutes.
 
 ## StripExifDataAndResetModifiedDate.sh
 * Requires [imagemagick.org](https://imagemagick.org/) commandline tool for `mogrify` command.
-* Requires files to be named according to `yyyyMMdd*` pattern.
+* Requires files to be named according to `yyyyMMdd` pattern.
 * Preserves the original filename.
 * Strips EXIF data (which is a useful for photos).
 * Resets the `ModifiedDate` to be the same month-day-year date as the `CreatedDate`. Resets hours-minutes-seconds to `00:00:00`.
