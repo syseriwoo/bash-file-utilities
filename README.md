@@ -5,15 +5,14 @@ A series of bash file utilities for users who want to organize simple files (suc
 Place the desired `.sh` file in the same folder as the files you wish to change, then execute in terminal: `sh <filename.sh>`
 
 ## CleanupMediaFileExtensions.sh
-* Converts undesirable image extensions (`.jpg`, `.jpeg`, `.bmp`, `.heic`, `.webp`) to `.png`.
-* Converts `.m4a` to `.mp3`.
-* Converts `.mov` to `.mp4`.
-* This simple script can be altered to include any file extension conversion that you wish!
+* Renames undesirable image extensions (`.jpg`, `.jpeg`, `.bmp`, `.heic`, `.webp`) to `.png`.
+* Changes `.m4a` to `.mp3`.
+* Changes `.mov` to `.mp4`.
 
 ## RenameFileNameByCreatedDate.sh
 * Rename a file to its `CreatedDate`.
 * Ex: iOS `IMG_0000` filename pattern for photos becomes `yyyyMMdd_NNNN`.
-* The *extension* of the original file is preserved.
+* The extension of the original file is preserved.
 
 ## SetCreateDateAndModifiedDateByFileName.sh
 * The reverse of the `RenameFileNameByCreatedDate.sh` script above.
