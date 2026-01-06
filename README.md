@@ -2,7 +2,7 @@
 
 A series of bash file utilities for users who want to organize simple files (such as photos) without buying a subscription to a premium file utility app.
 
-Place the desired `.sh` file in the same folder as the files you wish to change, then execute in terminal: `sh <filename.sh>`
+Operates within the current working directory. Run: `sh <scriptname.sh>`
 
 ## CleanupMediaFileExtensions.sh
 * Renames undesirable image extensions (`.jpg`, `.jpeg`, `.bmp`, `.heic`, `.webp`) to `.png`.
