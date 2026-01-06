@@ -13,6 +13,7 @@ Operates within the current working directory. Run: `sh <scriptname.sh>`
 * Rename a file to its `CreatedDate`.
 * Ex: iOS `IMG_0000` filename pattern for photos becomes `yyyyMMdd_NNNN`.
 * The extension of the original file is preserved.
+* Naming the file by its date of creation ensures that, if date data is written over (ex: during file transfer across operating systems or upload platforms), the numerical name of the file guarantees its ability to be sorted by date.
 
 ## SetCreateDateAndModifiedDateByFileName.sh
 * The reverse of the `RenameFileNameByCreatedDate.sh` script above.
